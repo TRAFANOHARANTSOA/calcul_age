@@ -53,7 +53,7 @@ else{
 
 
 ```
-##calcul de l'age exacet (j/m/a)
+##calcul de l'age exact (j/m/a)
 
 ###modification du html
 Dans index.php, on vas changer le type ```text``` de l'input qui sert à récupérer la date de naissance de l'utilisateur en type ```date```.
