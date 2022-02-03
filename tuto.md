@@ -82,8 +82,7 @@ Dans cette fonction, la première chose qu'on vérifie, c'est la présence d'une
   }
 
 ```
-Maintenant, on vas convertir le contenu de la variable superglobale ```$_POST
-``` qui est au format chaine de caractère en une valeur au format timestamp.
+Maintenant, on vas convertir le contenu de la variable superglobale ```$_POST``` qui est au format chaine de caractère en une valeur au format timestamp.
 Le timestamp désigne le nombre de secondes écoulées depuis le 1er janvier 1970 à minuit UTC précise.
 
 Pour ce faire, on redéfinie le contenu de ```$birthdate``` en utilisant la fonction ```strtotime()``` à laquelle on passe en paramètre ```$_POST```:
